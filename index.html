@@ -454,7 +454,7 @@
 
             // 設定 API URL (指向本機後端)
             const apiUrl = `https://ncoffee-cwaweather.zeabur.app/api/weather/${currentCity}`;
-
+            console.log(apiUrl)
             try {
                 // 模擬一點載入時間，讓動畫跑一下 (可選)
                 const delayPromise = new Promise(resolve => setTimeout(resolve, 600));
